@@ -32,7 +32,7 @@ Use with caution and feel free to contribute!
 Install via Composer:
 
 ```bash
-composer require potager/doh
+composer require theovdml/doh
 ```
 
 ---
@@ -40,7 +40,7 @@ composer require potager/doh
 ## Usage
 
 ```php
-use DohFormattingErrorHandler\Doh;
+use DohFormatting\Doh\Doh;
 
 try {
     // Some code that throws an exception
