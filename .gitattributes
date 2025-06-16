@@ -2,3 +2,4 @@
 /.gitignore export-ignore
 /.gitattributes export-ignore
 /composer.lock export-ignore
+/assets export-ignore

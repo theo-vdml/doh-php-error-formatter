@@ -3,6 +3,7 @@
     "description": "A flexible PHP error formated and stack trace formatter.",
     "type": "library",
     "license": "MIT",
+    "keywords": ["php", "exception", "error", "formatter", "debug", "throwable", "stack trace"],
     "authors": [
         {
             "name": "theo_vdml",
