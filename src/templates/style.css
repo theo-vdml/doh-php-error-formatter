@@ -1,0 +1,35 @@
+/* Add this inside your style.css or a <style> block */
+.transition-max-height {
+	transition-property: max-height, padding;
+}
+
+.max-h-0 {
+	max-height: 0;
+}
+
+.max-h-screen {
+	max-height: 99000px; /* large enough for your content */
+}
+
+/* WebKit browsers */
+::-webkit-scrollbar {
+	width: 6px;
+	height: 6px;
+}
+
+::-webkit-scrollbar-track {
+	background: #1f2937; /* dark gray background */
+	border-radius: 3px;
+}
+
+::-webkit-scrollbar-thumb {
+	background-color: #4b5563; /* medium gray */
+	border-radius: 3px;
+	border: 1px solid #1f2937; /* track color as border for separation */
+}
+
+/* Firefox */
+* {
+	scrollbar-width: thin;
+	scrollbar-color: #4b5563 #1f2937;
+}

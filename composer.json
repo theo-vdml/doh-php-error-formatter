@@ -1,0 +1,22 @@
+{
+    "name": "theovdml/doh",
+    "description": "A flexible PHP error formated and stack trace formatter.",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "theo_vdml",
+            "email": "hey@theovdml.dev"
+        }
+    ],
+    "require": {
+        "php": ">=8.4",
+        "scrivo/highlight.php": "^9.18"
+    },
+    "autoload": {
+        "psr-4": {
+            "DohFormatting\\Doh\\": "src/"
+        }
+    },
+    "minimum-stability": "stable"
+}
